@@ -13,7 +13,7 @@ class Student{
 		System.out.println("Hello "+name+" your Roll no is "+rollno);
 	}
 }
-public class Test {
+public class Methodoverloadtest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
