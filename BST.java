@@ -27,7 +27,6 @@ Node insertKey(Node root, int key) {
    return root;
  }
 
- // Traverse to the right place and insert the node
  if (key < root.key)
    root.left = insertKey(root.left, key);
  else if (key > root.key)
